@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c24021bc0c79eac1af61b4e598ba9b4cc223dab80e0458a8c8beee6a7cb3c0b5
-size 898
+---
+description: Delve into Classification Trainer at Ultralytics YOLO docs and optimize your model's training process with insights from the masters!.
+keywords: Ultralytics, YOLO, Classification Trainer, deep learning, training process, AI models, documentation
+---
+
+# Reference for `ultralytics/models/yolo/classify/train.py`
+
+!!! Note
+
+    This file is available at [https://github.com/ultralytics/ultralytics/blob/main/ultralytics/models/yolo/classify/train.py](https://github.com/ultralytics/ultralytics/blob/main/ultralytics/models/yolo/classify/train.py). If you spot a problem please help fix it by [contributing](https://docs.ultralytics.com/help/contributing/) a [Pull Request](https://github.com/ultralytics/ultralytics/edit/main/ultralytics/models/yolo/classify/train.py) 🛠️. Thank you 🙏!
+
+<br><br>
+
+## ::: ultralytics.models.yolo.classify.train.ClassificationTrainer
+
+<br><br>

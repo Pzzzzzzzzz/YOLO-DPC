@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2489af0308d28168ff01576036eb4df827e688cbc39296e18597f6a396f5e991
-size 585
+import os, tqdm
+from ultralytics import YOLO
+
+if __name__ == '__main__':
+    error_result = []
+    for yaml_path in tqdm.tqdm(os.listdir('ultralytics/cfg/models/v8')):
+        if 'rtdetr' not in yaml_path and 'cls' not in yaml_path:
+            try:
+                model = YOLO(f'ultralytics/cfg/models/v8/{yaml_path}')
+                model.info(detailed=True)
+                model.profile([640, 640])
+                model.fuse()
+            except Exception as e:
+                error_result.append(f'{yaml_path} {e}')
+
+    for i in error_result:
+        print(i)

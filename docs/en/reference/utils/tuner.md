@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:129a4385546b80761557887b8718a0b9712737d8fbc3e01ee781b0b4ccc53a1b
-size 788
+---
+description: Learn to utilize the run_ray_tune function with Ultralytics. Make your machine learning tuning process easier and more efficient.
+keywords: Ultralytics, run_ray_tune, machine learning tuning, machine learning efficiency
+---
+
+# Reference for `ultralytics/utils/tuner.py`
+
+!!! Note
+
+    This file is available at [https://github.com/ultralytics/ultralytics/blob/main/ultralytics/utils/tuner.py](https://github.com/ultralytics/ultralytics/blob/main/ultralytics/utils/tuner.py). If you spot a problem please help fix it by [contributing](https://docs.ultralytics.com/help/contributing/) a [Pull Request](https://github.com/ultralytics/ultralytics/edit/main/ultralytics/utils/tuner.py) 🛠️. Thank you 🙏!
+
+<br><br>
+
+## ::: ultralytics.utils.tuner.run_ray_tune
+
+<br><br>

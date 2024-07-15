@@ -1,3 +1,28 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:eef3b5e895a7b6223c6c33faa1a1d806111749a080be7a3933957750b4907a05
-size 1067
+---
+description: Understand routines at the end of pre-training and training in Ultralytics. Elevate your MLflow callbacks expertise.
+keywords: Ultralytics, MLflow, Callbacks, on_pretrain_routine_end, on_train_end, Machine Learning, Training
+---
+
+# Reference for `ultralytics/utils/callbacks/mlflow.py`
+
+!!! Note
+
+    This file is available at [https://github.com/ultralytics/ultralytics/blob/main/ultralytics/utils/callbacks/mlflow.py](https://github.com/ultralytics/ultralytics/blob/main/ultralytics/utils/callbacks/mlflow.py). If you spot a problem please help fix it by [contributing](https://docs.ultralytics.com/help/contributing/) a [Pull Request](https://github.com/ultralytics/ultralytics/edit/main/ultralytics/utils/callbacks/mlflow.py) 🛠️. Thank you 🙏!
+
+<br><br>
+
+## ::: ultralytics.utils.callbacks.mlflow.on_pretrain_routine_end
+
+<br><br>
+
+## ::: ultralytics.utils.callbacks.mlflow.on_train_epoch_end
+
+<br><br>
+
+## ::: ultralytics.utils.callbacks.mlflow.on_fit_epoch_end
+
+<br><br>
+
+## ::: ultralytics.utils.callbacks.mlflow.on_train_end
+
+<br><br>

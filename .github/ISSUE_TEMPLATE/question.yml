@@ -1,3 +1,33 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8a09ee4b0f384a13a435f83609d9fe10893261e4c816ab26347636b1c161a625
-size 1219
+name: ❓ Question
+description: Ask a YOLOv8 question
+# title: " "
+labels: [question]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for asking a YOLOv8 ❓ Question!
+
+  - type: checkboxes
+    attributes:
+      label: Search before asking
+      description: >
+        Please search the Ultralytics [Docs](https://docs.ultralytics.com), [issues](https://github.com/ultralytics/ultralytics/issues) and [discussions](https://github.com/ultralytics/ultralytics/discussions) to see if a similar question already exists.
+      options:
+        - label: >
+            I have searched the YOLOv8 [issues](https://github.com/ultralytics/ultralytics/issues) and [discussions](https://github.com/ultralytics/ultralytics/discussions) and found no similar questions.
+          required: true
+
+  - type: textarea
+    attributes:
+      label: Question
+      description: What is your question?
+      placeholder: |
+        💡 ProTip! Include as much information as possible (screenshots, logs, tracebacks etc.) to receive the most helpful response.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional
+      description: Anything else you would like to share?

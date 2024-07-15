@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c30c3ff2fdaaeab90a8e8cc14d663a7120e33662a246ed6a27aec3da73f92fd0
-size 874
+---
+description: Explore the guide to using the DetectionPredictor in Ultralytics YOLO. Learn how to predict, detect and analyze objects accurately.
+keywords: Ultralytics, YOLO, DetectionPredictor, detect, predict, object detection, analysis
+---
+
+# Reference for `ultralytics/models/yolo/detect/predict.py`
+
+!!! Note
+
+    This file is available at [https://github.com/ultralytics/ultralytics/blob/main/ultralytics/models/yolo/detect/predict.py](https://github.com/ultralytics/ultralytics/blob/main/ultralytics/models/yolo/detect/predict.py). If you spot a problem please help fix it by [contributing](https://docs.ultralytics.com/help/contributing/) a [Pull Request](https://github.com/ultralytics/ultralytics/edit/main/ultralytics/models/yolo/detect/predict.py) 🛠️. Thank you 🙏!
+
+<br><br>
+
+## ::: ultralytics.models.yolo.detect.predict.DetectionPredictor
+
+<br><br>

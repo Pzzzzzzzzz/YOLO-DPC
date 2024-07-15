@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5ae77f425ac173fe41dc870e913fce9af1d7cc019b4ca990e99b4fa7bf289e19
-size 893
+---
+description: Get insights into RTDETRTrainer, a crucial component of Ultralytics for effective model training. Explore detailed documentation at Ultralytics.
+keywords: Ultralytics, RTDETRTrainer, model training, Ultralytics models, PyTorch models, neural networks, machine learning, deep learning
+---
+
+# Reference for `ultralytics/models/rtdetr/train.py`
+
+!!! Note
+
+    This file is available at [https://github.com/ultralytics/ultralytics/blob/main/ultralytics/models/rtdetr/train.py](https://github.com/ultralytics/ultralytics/blob/main/ultralytics/models/rtdetr/train.py). If you spot a problem please help fix it by [contributing](https://docs.ultralytics.com/help/contributing/) a [Pull Request](https://github.com/ultralytics/ultralytics/edit/main/ultralytics/models/rtdetr/train.py) 🛠️. Thank you 🙏!
+
+<br><br>
+
+## ::: ultralytics.models.rtdetr.train.RTDETRTrainer
+
+<br><br>

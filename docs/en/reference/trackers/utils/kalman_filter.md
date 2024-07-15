@@ -1,3 +1,20 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ea14f458e43f088230823d85a3479ad8e27348211b3980f618673ecabe742b04
-size 943
+---
+description: Explore KalmanFilterXYAH, a key component of Ultralytics trackers. Understand its utilities and learn to leverage it in your own projects.
+keywords: Ultralytics, KalmanFilterXYAH, tracker, documentation, guide
+---
+
+# Reference for `ultralytics/trackers/utils/kalman_filter.py`
+
+!!! Note
+
+    This file is available at [https://github.com/ultralytics/ultralytics/blob/main/ultralytics/trackers/utils/kalman_filter.py](https://github.com/ultralytics/ultralytics/blob/main/ultralytics/trackers/utils/kalman_filter.py). If you spot a problem please help fix it by [contributing](https://docs.ultralytics.com/help/contributing/) a [Pull Request](https://github.com/ultralytics/ultralytics/edit/main/ultralytics/trackers/utils/kalman_filter.py) 🛠️. Thank you 🙏!
+
+<br><br>
+
+## ::: ultralytics.trackers.utils.kalman_filter.KalmanFilterXYAH
+
+<br><br>
+
+## ::: ultralytics.trackers.utils.kalman_filter.KalmanFilterXYWH
+
+<br><br>

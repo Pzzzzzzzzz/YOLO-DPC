@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:76df9806cc68b53eaddbbaa6f5988a45baa522d2d8547abb5d68cdf8910e81db
-size 805
+---
+description: Learn how our NAS model operates in Ultralytics. Comprehensive guide with detailed examples. Master the nuances of Ultralytics NAS model.
+keywords: Ultralytics, NAS model, NAS guide, machine learning, model documentation
+---
+
+# Reference for `ultralytics/models/nas/model.py`
+
+!!! Note
+
+    This file is available at [https://github.com/ultralytics/ultralytics/blob/main/ultralytics/models/nas/model.py](https://github.com/ultralytics/ultralytics/blob/main/ultralytics/models/nas/model.py). If you spot a problem please help fix it by [contributing](https://docs.ultralytics.com/help/contributing/) a [Pull Request](https://github.com/ultralytics/ultralytics/edit/main/ultralytics/models/nas/model.py) 🛠️. Thank you 🙏!
+
+<br><br>
+
+## ::: ultralytics.models.nas.model.NAS
+
+<br><br>

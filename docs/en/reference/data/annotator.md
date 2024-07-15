@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:43a198220611faee8c1d3d0e619a633a7ab9164f8ab603efc71b0cf1fa8509e9
-size 822
+---
+description: Enhance your machine learning model with Ultralytics’ auto_annotate function. Simplify data annotation for improved model training.
+keywords: Ultralytics, Auto-Annotate, Machine Learning, AI, Annotation, Data Processing, Model Training
+---
+
+# Reference for `ultralytics/data/annotator.py`
+
+!!! Note
+
+    This file is available at [https://github.com/ultralytics/ultralytics/blob/main/ultralytics/data/annotator.py](https://github.com/ultralytics/ultralytics/blob/main/ultralytics/data/annotator.py). If you spot a problem please help fix it by [contributing](https://docs.ultralytics.com/help/contributing/) a [Pull Request](https://github.com/ultralytics/ultralytics/edit/main/ultralytics/data/annotator.py) 🛠️. Thank you 🙏!
+
+<br><br>
+
+## ::: ultralytics.data.annotator.auto_annotate
+
+<br><br>

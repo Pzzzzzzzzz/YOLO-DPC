@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:af9c39623829d20639638cf090616b8a8d296ddfed218cad73438d516b242a98
-size 594
+User-agent: *
+Sitemap: https://docs.ultralytics.com/sitemap.xml
+Sitemap: https://docs.ultralytics.com/ar/sitemap.xml
+Sitemap: https://docs.ultralytics.com/de/sitemap.xml
+Sitemap: https://docs.ultralytics.com/es/sitemap.xml
+Sitemap: https://docs.ultralytics.com/fr/sitemap.xml
+Sitemap: https://docs.ultralytics.com/hi/sitemap.xml
+Sitemap: https://docs.ultralytics.com/ja/sitemap.xml
+Sitemap: https://docs.ultralytics.com/ko/sitemap.xml
+Sitemap: https://docs.ultralytics.com/pt/sitemap.xml
+Sitemap: https://docs.ultralytics.com/ru/sitemap.xml
+Sitemap: https://docs.ultralytics.com/zh/sitemap.xml

@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bcb2869d119e1fd7ad0068c377a3685148833e062dad1aa26688ddb69ed091b0
-size 802
+---
+description: Discover the Ultralytics YOLO model class. Learn advanced techniques, tips, and tricks for training.
+keywords: Ultralytics YOLO, YOLO, YOLO model, Model Training, Machine Learning, Deep Learning, Computer Vision
+---
+
+# Reference for `ultralytics/models/yolo/model.py`
+
+!!! Note
+
+    This file is available at [https://github.com/ultralytics/ultralytics/blob/main/ultralytics/models/yolo/model.py](https://github.com/ultralytics/ultralytics/blob/main/ultralytics/models/yolo/model.py). If you spot a problem please help fix it by [contributing](https://docs.ultralytics.com/help/contributing/) a [Pull Request](https://github.com/ultralytics/ultralytics/edit/main/ultralytics/models/yolo/model.py) 🛠️. Thank you 🙏!
+
+<br><br>
+
+## ::: ultralytics.models.yolo.model.YOLO
+
+<br><br>

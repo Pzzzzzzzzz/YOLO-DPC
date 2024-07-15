@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:768d8b211f6495594405695867632c0ef2e03163f940730032f895146861be4e
-size 893
+---
+description: Get practical insights about our SegmentationValidator in YOLO Ultralytics models. Discover functionality details, methods, inputs, and outputs.
+keywords: Ultralytics, YOLO, SegmentationValidator, model segmentation, image classification, object detection
+---
+
+# Reference for `ultralytics/models/yolo/segment/val.py`
+
+!!! Note
+
+    This file is available at [https://github.com/ultralytics/ultralytics/blob/main/ultralytics/models/yolo/segment/val.py](https://github.com/ultralytics/ultralytics/blob/main/ultralytics/models/yolo/segment/val.py). If you spot a problem please help fix it by [contributing](https://docs.ultralytics.com/help/contributing/) a [Pull Request](https://github.com/ultralytics/ultralytics/edit/main/ultralytics/models/yolo/segment/val.py) 🛠️. Thank you 🙏!
+
+<br><br>
+
+## ::: ultralytics.models.yolo.segment.val.SegmentationValidator
+
+<br><br>

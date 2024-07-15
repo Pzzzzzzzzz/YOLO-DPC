@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6f5bf2c9fd2e43de65aa850c69866ca8e4d2b016c1899b54340ce21c31633b93
-size 839
+---
+description: Explore Ultralytics NASPredictor. Understand high-level architecture of the model for effective implementation and efficient predictions.
+keywords: NASPredictor, Ultralytics, Ultralytics model, model architecture, efficient predictions
+---
+
+# Reference for `ultralytics/models/nas/predict.py`
+
+!!! Note
+
+    This file is available at [https://github.com/ultralytics/ultralytics/blob/main/ultralytics/models/nas/predict.py](https://github.com/ultralytics/ultralytics/blob/main/ultralytics/models/nas/predict.py). If you spot a problem please help fix it by [contributing](https://docs.ultralytics.com/help/contributing/) a [Pull Request](https://github.com/ultralytics/ultralytics/edit/main/ultralytics/models/nas/predict.py) 🛠️. Thank you 🙏!
+
+<br><br>
+
+## ::: ultralytics.models.nas.predict.NASPredictor
+
+<br><br>

@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9b599735bc4a4a8044690b882a3f6b432656e016663fc9c4acafca21c23835c4
-size 842
+---
+description: Discover how to use PosePredictor in the Ultralytics YOLO model. Includes detailed guides, code examples, and explanations.
+keywords: Ultralytics, YOLO, PosePredictor, machine learning, AI, predictive models
+---
+
+# Reference for `ultralytics/models/yolo/pose/predict.py`
+
+!!! Note
+
+    This file is available at [https://github.com/ultralytics/ultralytics/blob/main/ultralytics/models/yolo/pose/predict.py](https://github.com/ultralytics/ultralytics/blob/main/ultralytics/models/yolo/pose/predict.py). If you spot a problem please help fix it by [contributing](https://docs.ultralytics.com/help/contributing/) a [Pull Request](https://github.com/ultralytics/ultralytics/edit/main/ultralytics/models/yolo/pose/predict.py) 🛠️. Thank you 🙏!
+
+<br><br>
+
+## ::: ultralytics.models.yolo.pose.predict.PosePredictor
+
+<br><br>

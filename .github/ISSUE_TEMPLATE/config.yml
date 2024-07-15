@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d8b31cd3bfd90ccafe55f2fc4c62e85b15e681ca5e546f167e7763e4e9ecca74
-size 363
+blank_issues_enabled: true
+contact_links:
+  - name: 📄 Docs
+    url: https://docs.ultralytics.com/
+    about: Full Ultralytics YOLOv8 Documentation
+  - name: 💬 Forum
+    url: https://community.ultralytics.com/
+    about: Ask on Ultralytics Community Forum
+  - name: 🎧 Discord
+    url: https://ultralytics.com/discord
+    about: Ask on Ultralytics Discord

@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5eee22bf11e0d5142a2518355aa7efac03a5d080e5c7ec71817dbf20efea69ee
-size 1014
+---
+description: Learn about TwoWayTransformer and Attention modules in Ultralytics. Leverage these tools to enhance your AI models.
+keywords: Ultralytics, TwoWayTransformer, Attention, AI models, transformers
+---
+
+# Reference for `ultralytics/models/sam/modules/transformer.py`
+
+!!! Note
+
+    This file is available at [https://github.com/ultralytics/ultralytics/blob/main/ultralytics/models/sam/modules/transformer.py](https://github.com/ultralytics/ultralytics/blob/main/ultralytics/models/sam/modules/transformer.py). If you spot a problem please help fix it by [contributing](https://docs.ultralytics.com/help/contributing/) a [Pull Request](https://github.com/ultralytics/ultralytics/edit/main/ultralytics/models/sam/modules/transformer.py) 🛠️. Thank you 🙏!
+
+<br><br>
+
+## ::: ultralytics.models.sam.modules.transformer.TwoWayTransformer
+
+<br><br>
+
+## ::: ultralytics.models.sam.modules.transformer.TwoWayAttentionBlock
+
+<br><br>
+
+## ::: ultralytics.models.sam.modules.transformer.Attention
+
+<br><br>

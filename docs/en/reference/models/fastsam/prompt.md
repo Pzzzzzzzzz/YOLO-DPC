@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5de902b044d004fccb62518f22d17b73a0e5116f5db51c4ee4d8bb43b23159c8
-size 847
+---
+description: Learn to effectively utilize FastSAMPrompt model from Ultralytics. Detailed guide to help you get the most out of your machine learning models.
+keywords: Ultralytics, FastSAMPrompt, machine learning, model, guide, documentation
+---
+
+# Reference for `ultralytics/models/fastsam/prompt.py`
+
+!!! Note
+
+    This file is available at [https://github.com/ultralytics/ultralytics/blob/main/ultralytics/models/fastsam/prompt.py](https://github.com/ultralytics/ultralytics/blob/main/ultralytics/models/fastsam/prompt.py). If you spot a problem please help fix it by [contributing](https://docs.ultralytics.com/help/contributing/) a [Pull Request](https://github.com/ultralytics/ultralytics/edit/main/ultralytics/models/fastsam/prompt.py) 🛠️. Thank you 🙏!
+
+<br><br>
+
+## ::: ultralytics.models.fastsam.prompt.FastSAMPrompt
+
+<br><br>

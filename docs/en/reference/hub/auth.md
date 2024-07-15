@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d61461199791bba89a8e6a69bdf7f62e7c53df726c3e6196528c3970e5a48109
-size 770
+---
+description: Dive into the Ultralytics Auth API documentation & learn how to manage authentication in your AI & ML projects easily and effectively.
+keywords: Ultralytics, Auth, API documentation, User Authentication, AI, Machine Learning
+---
+
+# Reference for `ultralytics/hub/auth.py`
+
+!!! Note
+
+    This file is available at [https://github.com/ultralytics/ultralytics/blob/main/ultralytics/hub/auth.py](https://github.com/ultralytics/ultralytics/blob/main/ultralytics/hub/auth.py). If you spot a problem please help fix it by [contributing](https://docs.ultralytics.com/help/contributing/) a [Pull Request](https://github.com/ultralytics/ultralytics/edit/main/ultralytics/hub/auth.py) 🛠️. Thank you 🙏!
+
+<br><br>
+
+## ::: ultralytics.hub.auth.Auth
+
+<br><br>

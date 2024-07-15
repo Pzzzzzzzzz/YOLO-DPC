@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c7b23ddb3c9e79f232ac0ed69fbc6ff8f70abd3e0f56d86d82d9cf2274cbc515
-size 529
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+
+__version__ = "8.1.3"
+
+from ultralytics.data.explorer.explorer import Explorer
+from ultralytics.models import RTDETR, SAM, YOLO
+from ultralytics.models.fastsam import FastSAM
+from ultralytics.models.nas import NAS
+from ultralytics.utils import SETTINGS as settings
+from ultralytics.utils.checks import check_yolo as checks
+from ultralytics.utils.downloads import download
+
+__all__ = "__version__", "YOLO", "NAS", "SAM", "FastSAM", "RTDETR", "checks", "download", "settings", "Explorer"

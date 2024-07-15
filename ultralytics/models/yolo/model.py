@@ -1,3 +1,45 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0dd8acbed5751e38f7ed7e6439b8f04f0ac5cf15f75dbfa80765813e687db693
-size 1729
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+
+from ultralytics.engine.model import Model
+from ultralytics.models import yolo
+from ultralytics.nn.tasks import ClassificationModel, DetectionModel, OBBModel, PoseModel, SegmentationModel
+
+
+class YOLO(Model):
+    """YOLO (You Only Look Once) object detection model."""
+
+    @property
+    def task_map(self):
+        """Map head to model, trainer, validator, and predictor classes."""
+        return {
+            "classify": {
+                "model": ClassificationModel,
+                "trainer": yolo.classify.ClassificationTrainer,
+                "validator": yolo.classify.ClassificationValidator,
+                "predictor": yolo.classify.ClassificationPredictor,
+            },
+            "detect": {
+                "model": DetectionModel,
+                "trainer": yolo.detect.DetectionTrainer,
+                "validator": yolo.detect.DetectionValidator,
+                "predictor": yolo.detect.DetectionPredictor,
+            },
+            "segment": {
+                "model": SegmentationModel,
+                "trainer": yolo.segment.SegmentationTrainer,
+                "validator": yolo.segment.SegmentationValidator,
+                "predictor": yolo.segment.SegmentationPredictor,
+            },
+            "pose": {
+                "model": PoseModel,
+                "trainer": yolo.pose.PoseTrainer,
+                "validator": yolo.pose.PoseValidator,
+                "predictor": yolo.pose.PosePredictor,
+            },
+            "obb": {
+                "model": OBBModel,
+                "trainer": yolo.obb.OBBTrainer,
+                "validator": yolo.obb.OBBValidator,
+                "predictor": yolo.obb.OBBPredictor,
+            },
+        }

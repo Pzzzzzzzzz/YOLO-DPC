@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:17e3084caf68efffae69e4cb7d9cc4592af37c7e42f37dc42c895ed26a9b00c4
-size 814
+---
+description: Dive into the SAM model details in the Ultralytics YOLO documentation. Understand, implement, and optimize your model use.
+keywords: Ultralytics, YOLO, SAM Model, Documentations, Machine Learning, AI, Convolutional neural network
+---
+
+# Reference for `ultralytics/models/sam/model.py`
+
+!!! Note
+
+    This file is available at [https://github.com/ultralytics/ultralytics/blob/main/ultralytics/models/sam/model.py](https://github.com/ultralytics/ultralytics/blob/main/ultralytics/models/sam/model.py). If you spot a problem please help fix it by [contributing](https://docs.ultralytics.com/help/contributing/) a [Pull Request](https://github.com/ultralytics/ultralytics/edit/main/ultralytics/models/sam/model.py) 🛠️. Thank you 🙏!
+
+<br><br>
+
+## ::: ultralytics.models.sam.model.SAM
+
+<br><br>

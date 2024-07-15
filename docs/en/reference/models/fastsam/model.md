@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:50558fe8837d2a69c59579bbedd53bfa4b5fbcfbcf5ef708dab068516a3aaae4
-size 824
+---
+description: Learn all about Ultralytics FastSAM model. Dive into our comprehensive guide for seamless integration and efficient model training.
+keywords: Ultralytics, FastSAM model, Model documentation, Efficient model training
+---
+
+# Reference for `ultralytics/models/fastsam/model.py`
+
+!!! Note
+
+    This file is available at [https://github.com/ultralytics/ultralytics/blob/main/ultralytics/models/fastsam/model.py](https://github.com/ultralytics/ultralytics/blob/main/ultralytics/models/fastsam/model.py). If you spot a problem please help fix it by [contributing](https://docs.ultralytics.com/help/contributing/) a [Pull Request](https://github.com/ultralytics/ultralytics/edit/main/ultralytics/models/fastsam/model.py) 🛠️. Thank you 🙏!
+
+<br><br>
+
+## ::: ultralytics.models.fastsam.model.FastSAM
+
+<br><br>

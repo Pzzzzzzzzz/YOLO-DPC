@@ -1,3 +1,29 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e8e80636e0b7e45dbd970f0397f77496e7b8fa2051e9daab055427211403c781
-size 632
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+
+from ultralytics.utils import SETTINGS
+
+try:
+    assert SETTINGS["raytune"] is True  # verify integration is enabled
+    import ray
+    from ray import tune
+    from ray.air import session
+
+except (ImportError, AssertionError):
+    tune = None
+
+
+def on_fit_epoch_end(trainer):
+    """Sends training metrics to Ray Tune at end of each epoch."""
+    if ray.tune.is_session_enabled():
+        metrics = trainer.metrics
+        metrics["epoch"] = trainer.epoch
+        session.report(metrics)
+
+
+callbacks = (
+    {
+        "on_fit_epoch_end": on_fit_epoch_end,
+    }
+    if tune
+    else {}
+)

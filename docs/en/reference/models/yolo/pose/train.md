@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bb7ab6fd7b4e7dc5f53a24902df0c7ab6c5b653e560685c626f21b6a3cb0ca3e
-size 854
+---
+description: Explore Ultralytics PoseTrainer for YOLO models. Get a step-by-step guide on how to train on custom pose data for more accurate AI modeling.
+keywords: Ultralytics, YOLO, PoseTrainer, pose training, AI modeling, custom data training
+---
+
+# Reference for `ultralytics/models/yolo/pose/train.py`
+
+!!! Note
+
+    This file is available at [https://github.com/ultralytics/ultralytics/blob/main/ultralytics/models/yolo/pose/train.py](https://github.com/ultralytics/ultralytics/blob/main/ultralytics/models/yolo/pose/train.py). If you spot a problem please help fix it by [contributing](https://docs.ultralytics.com/help/contributing/) a [Pull Request](https://github.com/ultralytics/ultralytics/edit/main/ultralytics/models/yolo/pose/train.py) 🛠️. Thank you 🙏!
+
+<br><br>
+
+## ::: ultralytics.models.yolo.pose.train.PoseTrainer
+
+<br><br>

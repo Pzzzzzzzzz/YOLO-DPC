@@ -1,3 +1,33 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d9be0711c97bf7cc5b3d171e5c4613bb962805ef7324903805a5731f52803374
-size 1054
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+
+from pathlib import Path
+
+from ultralytics.engine.model import Model
+from .predict import FastSAMPredictor
+from .val import FastSAMValidator
+
+
+class FastSAM(Model):
+    """
+    FastSAM model interface.
+
+    Example:
+        ```python
+        from ultralytics import FastSAM
+
+        model = FastSAM('last.pt')
+        results = model.predict('ultralytics/assets/bus.jpg')
+        ```
+    """
+
+    def __init__(self, model="FastSAM-x.pt"):
+        """Call the __init__ method of the parent class (YOLO) with the updated default model."""
+        if str(model) == "FastSAM.pt":
+            model = "FastSAM-x.pt"
+        assert Path(model).suffix not in (".yaml", ".yml"), "FastSAM models only support pre-trained models."
+        super().__init__(model=model, task="segment")
+
+    @property
+    def task_map(self):
+        """Returns a dictionary mapping segment task to corresponding predictor and validator classes."""
+        return {"segment": {"predictor": FastSAMPredictor, "validator": FastSAMValidator}}

@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b327307b8d880e55a8081d3524fbbc35f6a7e1eb0c68dbfaf43f88f1d0a23790
-size 1042
+---
+description: Explore Ultralytics YOLO's distance calculation feature designed for advance analytics, providing an immediate, impactful way to interpret computer vision data.
+keywords: Ultralytics, YOLO, distance calculation, object tracking, data visualization, real-time tracking, machine learning, object counting, computer vision, vehicle analytics, YOLOv8, artificial intelligence
+---
+
+# Reference for `ultralytics/solutions/distance_calculation.py`
+
+!!! Note
+
+    This file is available at [https://github.com/ultralytics/ultralytics/blob/main/ultralytics/solutions/distance_calculation.py](https://github.com/ultralytics/ultralytics/blob/main/ultralytics/solutions/distance_calculation.py). If you spot a problem please help fix it by [contributing](https://docs.ultralytics.com/help/contributing/) a [Pull Request](https://github.com/ultralytics/ultralytics/edit/main/ultralytics/solutions/distance_calculation.py) 🛠️. Thank you 🙏!
+
+<br><br>
+
+## ::: ultralytics.solutions.distance_calculation.DistanceCalculation
+
+<br><br>

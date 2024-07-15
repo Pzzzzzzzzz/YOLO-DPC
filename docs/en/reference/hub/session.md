@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cfbb3b28184c7e706c75e74bf535c2a45978d7209105fa1c33f7ec0c77360899
-size 812
+---
+description: Explore details about the HUBTrainingSession in Ultralytics framework. Learn to utilize this functionality for effective model training.
+keywords: Ultralytics, HUBTrainingSession, Documentation, Model Training, AI, Machine Learning, YOLO
+---
+
+# Reference for `ultralytics/hub/session.py`
+
+!!! Note
+
+    This file is available at [https://github.com/ultralytics/ultralytics/blob/main/ultralytics/hub/session.py](https://github.com/ultralytics/ultralytics/blob/main/ultralytics/hub/session.py). If you spot a problem please help fix it by [contributing](https://docs.ultralytics.com/help/contributing/) a [Pull Request](https://github.com/ultralytics/ultralytics/edit/main/ultralytics/hub/session.py) 🛠️. Thank you 🙏!
+
+<br><br>
+
+## ::: ultralytics.hub.session.HUBTrainingSession
+
+<br><br>

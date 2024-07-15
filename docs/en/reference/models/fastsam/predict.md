@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:cc5c82a9b480099e42ceb964849b57a10248698c971ffde8b52763a4d6fd5beb
-size 909
+---
+description: Get detailed insights about Ultralytics FastSAMPredictor. Learn to predict and optimize your AI models with our properly documented guidelines.
+keywords: Ultralytics, FastSAMPredictor, predictive modeling, AI optimization, machine learning, deep learning, Ultralytics documentation
+---
+
+# Reference for `ultralytics/models/fastsam/predict.py`
+
+!!! Note
+
+    This file is available at [https://github.com/ultralytics/ultralytics/blob/main/ultralytics/models/fastsam/predict.py](https://github.com/ultralytics/ultralytics/blob/main/ultralytics/models/fastsam/predict.py). If you spot a problem please help fix it by [contributing](https://docs.ultralytics.com/help/contributing/) a [Pull Request](https://github.com/ultralytics/ultralytics/edit/main/ultralytics/models/fastsam/predict.py) 🛠️. Thank you 🙏!
+
+<br><br>
+
+## ::: ultralytics.models.fastsam.predict.FastSAMPredictor
+
+<br><br>
